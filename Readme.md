@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг»
 
 * Студент: [Руслан Козырь](https://up.htmlacademy.ru/javascript/23/user/1158521).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Смирнов](https://htmlacademy.ru/profile/7mirnoff).
 
 ---
 
