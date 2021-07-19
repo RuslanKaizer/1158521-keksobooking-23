@@ -20,10 +20,6 @@ const setDefaultCoordinates = () => {
   setAddresValue(TOKIO_COORDINATES);
 };
 
-const setMainPinMarker = () => {
-  mainMarker.setLatLng({TOKIO_COORDINATES});
-};
-
 const formatAddressString = ({lat, lng}) => {
   return `${lat.toFixed(5)}, ${lng.toFixed(5)}`;
 }
@@ -110,8 +106,4 @@ const clearMarkers = () => {
   markers.clearLayers();
 };
 
-const updateMarkers = (data) => {
-  addOffersToMap(data);
-};
-
-export { setDefaultCoordinates, addOffersToMap, clearMarkers, setMainPinMarker, updateMarkers };
+export { setDefaultCoordinates, addOffersToMap, clearMarkers };

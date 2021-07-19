@@ -1,14 +1,14 @@
 import { disableForm } from './util.js';
 
+const PRICE_LOW = 'low';
+const PRICE_MIDDLE = 'middle';
+const PRICE_HIGH = 'high';
+const DEFAULT_FILTER_VALUE = 'any';
 const mapFiltersForm = document.querySelector('.map__filters');
 const typeInput = mapFiltersForm.querySelector('[name="housing-type"]');
 const priceInput = mapFiltersForm.querySelector('[name="housing-price"]');
 const roomsInput = mapFiltersForm.querySelector('[name="housing-rooms"]');
 const guestsInput = mapFiltersForm.querySelector('[name="housing-guests"]');
-const PRICE_LOW = 'low';
-const PRICE_MIDDLE = 'middle';
-const PRICE_HIGH = 'high';
-const DEFAULT_FILTER_VALUE = 'any';
 
 const resetMapForm = () => {
   mapFiltersForm.reset();
